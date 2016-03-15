@@ -5,7 +5,7 @@ import $ from 'jquery';
 // var jddata = 'https://api.github.com/users/jisaacks/orgs?access_token=8ab15760ece58f504e1b75ac6ff686667a8c6186';
 
 var request = $.ajax({
-	url: 'https://api.github.com/users/jisaacks/orgs?access_token=8ab15760ece58f504e1b75ac6ff686667a8c6186',
+	url: 'https://api.github.com/users/jisaacks/orgs?access_token=6d82f580eb6126f9663d70448eae1791b447cf18',
 	dataType: 'json',
 	method: 'get'
 });
