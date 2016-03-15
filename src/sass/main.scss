@@ -1,12 +1,35 @@
 /* CSS Entry Point */
 .container {
-	height: 600px;
+	height: 700px;
 	width: 600px;
-	border: 1px solid red;
+	border: 1px solid #dddddd;
+	font-family: sans-serif;
+	padding-top: 10px;
 }
 
-.organizations {
-	height: 50px;
-	
+
+.organizations li {
+	height: 100px;
+	width: 500px;
+	border: 1px solid #dddddd;
+	background-color: #f0f0f0;
+	border-radius: 6px;
+	vertical-align: 50%;
+
 }
+
+li {
+	list-style: none;
+	font-size: 52px;
+	color: #aaaaaa;
+	//text-align: center;
+	vertical-align: 50%;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-top: 10px;
+	text-shadow: 1px 1px 1px #b9b9b9;
+}
+
+
+
 

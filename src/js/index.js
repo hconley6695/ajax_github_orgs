@@ -5,7 +5,7 @@ import $ from 'jquery';
 // var jddata = 'https://api.github.com/users/jisaacks/orgs?access_token=8ab15760ece58f504e1b75ac6ff686667a8c6186';
 
 var request = $.ajax({
-	url: 'https://api.github.com/users/jisaacks/orgs?access_token=6d82f580eb6126f9663d70448eae1791b447cf18',
+	url: 'https://api.github.com/users/jisaacks/orgs?access_token=68392fd5ddc52da45a22078300c400f80cefd3ef',
 	dataType: 'json',
 	method: 'get'
 });
@@ -16,7 +16,7 @@ request.then(function(orgs) {
 	var $company = $('.organizations');
 	
 	orgs.forEach(function(org){
-	$company.append(`<li><img src="${org.avatar_url}" height="50" weight="50"> ${org.login}</li>`);
+	$company.append(`<li><img src="${org.avatar_url}" height="80" weight="80"> ${org.login}</li>`);
 	})
 
 });
